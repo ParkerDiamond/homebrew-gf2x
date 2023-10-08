@@ -6,10 +6,11 @@ class Gf2x < Formula
   license "GPL-3.0-or-later"
 
   depends_on "automake"
+  depends_on "libtool"
   depends_on "texinfo"
 
   def install
-    system "autoreconf", "-i"
+    system "autoreconf", "-fvi"
     system "./configure"
     system "make"
     system "make", "tune-lowlevel"
