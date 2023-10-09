@@ -2,9 +2,9 @@
 
 ## How do I install these formulae?
 
-`brew install parkerdiamond/gf2x/<formula>`
+`brew install parkerdiamond/gf2x/gf2x`
 
-Or `brew tap parkerdiamond/gf2x` and then `brew install <formula>`.
+Or `brew tap parkerdiamond/gf2x` and then `brew install gf2x`.
 
 ## Documentation
 
